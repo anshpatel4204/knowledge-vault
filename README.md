@@ -13,7 +13,7 @@ A personal knowledge base for notes, references, and resources — organized for
 Clone the repo and add notes as Markdown files. Organize by topic using folders or tags.
 
 ```bash
-git clone https://github.com/<your-username>/knowledge-vault.git
+https://github.com/ap4204/knowledge-vault.git
 ```
 
 ## License
