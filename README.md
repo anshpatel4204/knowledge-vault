@@ -4,7 +4,7 @@ A personal knowledge base for notes, references, and resources — organized for
 
 ## Contents
 
-- `notes/` — raw notes and ideas
+- `notes/` — Structured notes and ideas
 - `resources/` — links, articles, and references
 - `templates/` — reusable note templates
 
