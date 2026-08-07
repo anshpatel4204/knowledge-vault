@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INDEX.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "INDEX"
+              "title": "README"
             }
           }
         ]
@@ -206,10 +206,10 @@
   },
   "active": "644f109c2f94f318",
   "lastOpenFiles": [
+    "INDEX.md",
     "README.md",
     "ROADMAP.md",
     "TODO.md",
-    "INDEX.md",
     "notes/CyberSecurity/CS-Fundamentals/Networking/TCP_Protocol.md",
     "CHANGELOG.md",
     "assets",
