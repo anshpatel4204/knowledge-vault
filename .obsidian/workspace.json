@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/CyberSecurity/CS-Fundamentals/Networking/TCP_Protocol.md",
+                "file": "INDEX.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TCP_Protocol"
+              "title": "INDEX"
             }
           }
         ]
@@ -206,10 +206,12 @@
   },
   "active": "644f109c2f94f318",
   "lastOpenFiles": [
-    "TODO.md",
-    "CHANGELOG.md",
+    "README.md",
     "ROADMAP.md",
+    "TODO.md",
     "INDEX.md",
+    "notes/CyberSecurity/CS-Fundamentals/Networking/TCP_Protocol.md",
+    "CHANGELOG.md",
     "assets",
     "New folder",
     "notes/MCA",
@@ -221,7 +223,6 @@
     "notes/Mathematics/New folder",
     "notes/Mathematics",
     "copilot/copilot-conversations/Detailed_Notes_Request_Failed@20260807_112944.md",
-    "README.md",
     "copilot/copilot-custom-prompts/Clip Web Page.md",
     "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
@@ -237,7 +238,6 @@
     "copilot/copilot-custom-prompts/Summarize.md",
     "copilot/copilot-custom-prompts/Translate to Chinese.md",
     "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
-    "notes/CyberSecurity/CS-Fundamentals/Networking/TCP_Protocol.md",
     "Untitled.md",
     "Untitled 1.md"
   ]

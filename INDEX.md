@@ -1,63 +1,122 @@
-# Knowledge Vault - Master Index
+# 📚 Knowledge Vault
 
-This is the central index for the entire knowledge-vault. Use it to jump into any subject area, track learning progress, or find a specific note fast.
+> Personal Knowledge Base of Ansh Patel
 
-## How this vault is organized
+---
 
-- **notes/** - all subject notes, grouped by domain folder
-- **templates/** - reusable note templates
-- **resources/** - external references, cheat sheets, links
-- **assets/** - images and other attachments used in notes
-- **README.md** - landing page for anyone viewing this repo on GitHub
-- **ROADMAP.md** - the learning plan and sequencing
-- **CHANGELOG.md** - a running log of what was added or changed
-- **TODO.md** - topics queued up for future notes
+# 🔐 CyberSecurity
 
-## Subject Areas
+## Fundamentals
+- [ ] CIA Triad
+- [ ] AAA
+- [ ] OSI Model
+- [ ] TCP/IP
+- [ ] IPv4
+- [ ] IPv6
+- [ ] Ports
+- [ ] DNS
+- [ ] DHCP
 
-### CyberSecurity
-Fundamentals, networking, cryptography, Linux, security basics, Windows, DFIR (DF), SOC, VAPT.
+## Networking
+- [ ] Routing
+- [ ] Switching
+- [ ] VLAN
+- [ ] NAT
+- [ ] VPN
 
-### Programming
-Languages, data structures & algorithms, design patterns, best practices.
+## Web Security
+- [ ] HTTP
+- [ ] HTTPS
+- [ ] Cookies
+- [ ] Sessions
+- [ ] JWT
+- [ ] OAuth
 
-### Operating Systems
-Process management, memory management, file systems, concurrency, scheduling.
+## Cryptography
+- [ ] AES
+- [ ] RSA
+- [ ] ECC
+- [ ] Hashing
+- [ ] Digital Signature
 
-### Databases
-SQL, NoSQL, normalization, indexing, transactions, database design.
+## VAPT
+- [ ] Recon
+- [ ] Scanning
+- [ ] Enumeration
+- [ ] Exploitation
+- [ ] Reporting
 
-### AI-ML
-Machine learning fundamentals, deep learning, model training, AI tools and frameworks.
+---
 
-### Cloud
-AWS, Azure, GCP fundamentals, cloud architecture, cloud security.
+# 💻 Programming
 
-### DevOps
-CI/CD, containers, orchestration, infrastructure as code, monitoring.
+## C
+- [ ] Variables
+- [ ] Pointers
+- [ ] Structures
 
-### Web Development
-Frontend, backend, APIs, frameworks, web security.
+## C++
+- [ ] OOP
+- [ ] STL
+- [ ] Templates
 
-### Mathematics
-Discrete math, linear algebra, statistics, and math for computer science.
+## Python
+- [ ] Basics
+- [ ] OOP
+- [ ] Networking
 
-### MCA
-Coursework notes and material specific to the MCA program.
+---
 
-### Career
-Resume, interview prep, job search notes, certifications.
+# 🖥 Operating Systems
 
-### Projects
-Notes and documentation for personal or academic projects.
+- [ ] Linux
+- [ ] Windows
+- [ ] Processes
+- [ ] Threads
 
-## Quick Links
+---
 
-- [[README]]
-- [[ROADMAP]]
-- [[TODO]]
-- [[CHANGELOG]]
+# ☁ Cloud
 
-## Status
+- [ ] AWS
+- [ ] Azure
+- [ ] GCP
 
-Last updated: 2026-08-07
+---
+
+# 🤖 AI
+
+- [ ] Machine Learning
+- [ ] Deep Learning
+- [ ] LLM
+- [ ] Prompt Engineering
+
+---
+
+# 🎓 MCA
+
+Semester 1
+- [ ]
+
+Semester 2
+- [ ]
+
+Semester 3
+- [ ]
+
+---
+
+# 🚀 Projects
+
+- [ ] Multipara Monitor
+- [ ] Knowledge Vault
+- [ ] AI Projects
+
+---
+
+# 📖 Interview Preparation
+
+- [ ] Networking
+- [ ] Linux
+- [ ] Cyber Security
+- [ ] Programming
