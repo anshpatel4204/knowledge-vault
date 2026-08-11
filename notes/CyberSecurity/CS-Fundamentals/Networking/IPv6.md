@@ -11,6 +11,7 @@ IPv6 addresses are **128 bits**, written as **eight groups of four hexadecimal d
 ```
 
 **Shortening rules:**
+
 - Leading zeros in a group can be omitted: `0db8` → `db8`
 - One consecutive run of all-zero groups can be replaced with `::` (only once per address)
 

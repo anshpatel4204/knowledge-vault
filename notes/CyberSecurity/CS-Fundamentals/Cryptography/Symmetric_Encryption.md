@@ -65,11 +65,13 @@ Most modes of operation require an **Initialization Vector (IV)** or **nonce** �
 ## 9. Advantages and Disadvantages
 
 **Advantages:**
+
 - Very fast, low computational overhead — ideal for large volumes of data.
 - Simple mathematically compared to asymmetric crypto.
 - Strong security at manageable key sizes (128/256-bit).
 
 **Disadvantages:**
+
 - **Key distribution problem** — securely sharing the key is the hard part.
 - Doesn't scale well for many parties (n users need n(n-1)/2 unique key pairs for full pairwise secrecy).
 - Provides confidentiality only — not inherently authentication or non-repudiation (needs to be paired with a MAC, see [[HMAC_and_MAC]]).

@@ -55,11 +55,13 @@ Because PAT hides internal hosts behind one public IP, unsolicited **inbound** c
 ## 8. Advantages and Disadvantages
 
 **Advantages:**
+
 - Conserves public IPv4 addresses.
 - Hides internal network structure from outside.
 - Simplifies internal renumbering without needing new public allocations.
 
 **Disadvantages:**
+
 - Breaks true end-to-end connectivity (a core internet design principle).
 - Complicates protocols that embed IP addresses in payloads (e.g., some VoIP/SIP scenarios) — needs Application Layer Gateways (ALGs).
 - Adds a layer of state that must be maintained (NAT tables), which can be a scaling/performance concern.

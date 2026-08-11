@@ -30,6 +30,7 @@ VPNs work by **encapsulating** one packet inside another — the original packet
 ## 5. Key VPN Protocols
 
 ### IPSec (Internet Protocol Security)
+
 - A **suite** of protocols (not a single protocol) providing encryption, integrity, and authentication at the Network layer.
 - **AH (Authentication Header)** — provides integrity and authentication, no encryption.
 - **ESP (Encapsulating Security Payload)** — provides encryption plus optional integrity/authentication (the one almost always used in practice).
@@ -37,18 +38,22 @@ VPNs work by **encapsulating** one packet inside another — the original packet
 - Two modes: **Transport mode** (encrypts payload only, used host-to-host) and **Tunnel mode** (encrypts entire original packet, used for site-to-site VPNs).
 
 ### SSL/TLS VPN
+
 - Operates at a higher layer, often via a browser or lightweight client (no need for a dedicated network-layer client).
 - Commonly used for remote access to specific applications/portals rather than full network access.
 - Uses standard HTTPS port **443**, which makes it firewall-friendly (less likely to be blocked than IPSec).
 
 ### WireGuard
+
 - Modern, lightweight, high-performance VPN protocol using state-of-the-art cryptography (Curve25519, ChaCha20).
 - Much smaller codebase than IPSec/OpenVPN, easier to audit, faster handshakes, gaining rapid adoption.
 
 ### OpenVPN
+
 - Open-source, SSL/TLS-based VPN protocol, highly configurable, runs over UDP or TCP, widely supported across platforms.
 
 ### PPTP / L2TP (Legacy)
+
 - **PPTP (Point-to-Point Tunneling Protocol)** — old, fast, but cryptographically broken/insecure by modern standards; avoid.
 - **L2TP (Layer 2 Tunneling Protocol)** — provides tunneling but no encryption on its own; almost always paired with IPSec as **L2TP/IPSec**.
 
@@ -67,7 +72,7 @@ VPNs work by **encapsulating** one packet inside another — the original packet
 
 | Mode | Description |
 |---|---|
-| Full Tunnel | ALL of a client's traffic routes through the VPN | 
+| Full Tunnel | ALL of a client's traffic routes through the VPN |
 | Split Tunnel | Only traffic destined for the private network routes through the VPN; other traffic (e.g., general internet browsing) goes directly out the local connection |
 
 Full tunneling is more secure/controllable (all traffic inspected/protected) but uses more bandwidth on the VPN concentrator; split tunneling is more efficient but expands the attack surface since the device also has a direct, unmonitored path to the internet.

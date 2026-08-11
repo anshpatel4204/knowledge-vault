@@ -9,6 +9,7 @@ Ensures information is accessible only to those authorized to see it.
 **Goal:** Prevent unauthorized disclosure of data.
 
 **Controls:**
+
 - Encryption (at rest and in transit — AES, TLS)
 - Access control lists (ACLs) and role-based access control (RBAC)
 - Strong authentication (passwords, MFA)
@@ -27,6 +28,7 @@ Ensures information is accurate, complete, and has not been altered by unauthori
 **Goal:** Prevent unauthorized or accidental modification of data.
 
 **Controls:**
+
 - Hashing (MD5, SHA-256) to detect tampering
 - Digital signatures
 - Checksums and file integrity monitoring (FIM) tools like Tripwire
@@ -45,6 +47,7 @@ Ensures systems, applications, and data are accessible to authorized users when 
 **Goal:** Keep services running and data reachable.
 
 **Controls:**
+
 - Redundancy (RAID, failover clusters, redundant power/ISP links)
 - Load balancing
 - Regular backups and tested disaster recovery (DR) plans

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/CyberSecurity/CS-Fundamentals/Networking/AAA.md",
+                "file": "notes/CyberSecurity/CS-Fundamentals/Linux/Cron_and_Task_Scheduling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AAA"
+              "title": "Cron_and_Task_Scheduling"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/CyberSecurity/CS-Fundamentals/Networking/TCP_Protocol.md",
+                "file": "notes/CyberSecurity/CS-Fundamentals/Linux/Cron_and_Task_Scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,8 +180,7 @@
               "title": "Copilot"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -204,43 +203,43 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5bede4c6c136b6df",
+  "active": "644f109c2f94f318",
   "lastOpenFiles": [
-    "notes/CyberSecurity/CS-Fundamentals/Networking/Proxy_Servers.md",
-    "notes/CyberSecurity/CS-Fundamentals/Networking/Proxy_Servers.md.tmp.20564.f1457d223436",
-    "notes/CyberSecurity/CS-Fundamentals/Networking/Network_Topologies.md",
-    "notes/CyberSecurity/CS-Fundamentals/Networking/Network_Topologies.md.tmp.20564.4894aa7b2b56",
-    "notes/CyberSecurity/CS-Fundamentals/Networking/Wireless_Networking.md",
-    "notes/CyberSecurity/CS-Fundamentals/Networking/Wireless_Networking.md.tmp.20564.3773b681a5ef",
-    "notes/CyberSecurity/CS-Fundamentals/Networking/Firewalls.md",
-    "notes/CyberSecurity/CS-Fundamentals/Networking/Firewalls.md.tmp.20564.e0d70aae9700",
-    "notes/CyberSecurity/CS-Fundamentals/Networking/Network_Devices.md",
-    "notes/CyberSecurity/CS-Fundamentals/Networking/Network_Devices.md.tmp.20564.2cccd63fe62b",
-    "notes/CyberSecurity/CS-Fundamentals/Networking/ICMP.md",
-    "notes/CyberSecurity/CS-Fundamentals/Networking/ICMP.md.tmp.20564.a4aa2356f950",
-    "notes/CyberSecurity/CS-Fundamentals/Networking/ARP.md",
-    "notes/CyberSecurity/CS-Fundamentals/Networking/ARP.md.tmp.20564.d6991ce44b10",
-    "notes/CyberSecurity/CS-Fundamentals/Networking/UDP_Protocol.md",
-    "notes/CyberSecurity/CS-Fundamentals/Networking/UDP_Protocol.md.tmp.20564.10bf8161ae0a",
-    "notes/CyberSecurity/CS-Fundamentals/Cryptography/Asymmetric_Encryption.md",
-    "notes/CyberSecurity/CS-Fundamentals/Cryptography/Post_Quantum_Cryptography.md",
-    "notes/CyberSecurity/CS-Fundamentals/Cryptography/Post_Quantum_Cryptography.md.tmp.24832.b6dda7a37561",
-    "notes/CyberSecurity/CS-Fundamentals/Cryptography/Random_Number_Generation.md",
-    "notes/CyberSecurity/CS-Fundamentals/Cryptography/Random_Number_Generation.md.tmp.24832.7707c988e3fb",
-    "notes/CyberSecurity/CS-Fundamentals/Cryptography/Elliptic_Curve_Cryptography.md",
-    "notes/CyberSecurity/CS-Fundamentals/Cryptography/Key_Management.md",
-    "notes/CyberSecurity/CS-Fundamentals/Cryptography/Classical_Ciphers.md",
-    "notes/CyberSecurity/CS-Fundamentals/Cryptography/Encoding_vs_Encryption_vs_Hashing.md",
-    "notes/CyberSecurity/CS-Fundamentals/Cryptography/Steganography.md",
-    "notes/CyberSecurity/CS-Fundamentals/Cryptography/Cryptographic_Attacks.md",
-    "notes/CyberSecurity/CS-Fundamentals/Cryptography/TLS_SSL.md",
-    "notes/CyberSecurity/CS-Fundamentals/Cryptography/Symmetric_Encryption.md",
-    "notes/CyberSecurity/CS-Fundamentals/Cryptography/Block_Cipher_Modes.md",
-    "notes/CyberSecurity/CS-Fundamentals/Cryptography/PKI.md",
-    "notes/CyberSecurity/CS-Fundamentals/Cryptography/Key_Exchange.md",
-    "notes/CyberSecurity/CS-Fundamentals/Cryptography/Digital_Signatures.md",
-    "notes/CyberSecurity/CS-Fundamentals/Cryptography/HMAC_and_MAC.md",
-    "notes/CyberSecurity/CS-Fundamentals/Cryptography/Hashing.md",
-    "notes/CyberSecurity/CS-Fundamentals/Cryptography/Cryptography_Basics.md"
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Linux_Privilege_Escalation.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Linux_Privilege_Escalation.md.tmp.22976.9438a6277003",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Linux_Security_Hardening.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Linux_Security_Hardening.md.tmp.22976.ee474cf40a4d",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Environment_Variables_and_Shell_Config.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Environment_Variables_and_Shell_Config.md.tmp.22976.ae54599bff7d",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Archiving_and_Compression.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Archiving_and_Compression.md.tmp.22976.fbc561462200",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/User_and_Group_Management.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Disk_and_Storage_Management.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Disk_and_Storage_Management.md.tmp.22976.b9faf3626f12",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Linux_Networking_Commands.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Linux_Networking_Commands.md.tmp.22976.23185477bbd8",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Log_Management.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Log_Management.md.tmp.22976.8dc618d437cf",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Linux_Basics.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Cron_and_Task_Scheduling.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Cron_and_Task_Scheduling.md.tmp.22976.f0e2f1e7225f",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Systemd_and_Services.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Systemd_and_Services.md.tmp.22976.8b3a5d3ca5b6",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Package_Management.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Package_Management.md.tmp.22976.beb51347c04f",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Process_Lifecycle_and_IPC.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Shell_Scripting.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Text_Processing_Commands.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Essential_Commands.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Regular_Expressions.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Process_Management.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Linux_File_System_Hierarchy.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Linux_Boot_Process.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Piping_Redirection_and_Operators.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/File_Viewing_and_Editors.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Linux_Shell_Basics.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/File_Permissions.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/File_Types_and_Inodes.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Linux_Architecture.md"
   ]
 }

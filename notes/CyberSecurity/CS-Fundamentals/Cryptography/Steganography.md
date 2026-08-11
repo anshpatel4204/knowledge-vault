@@ -33,6 +33,7 @@ An 8-bit pixel color value like `10010110` can have its least significant bit ch
 **Steganalysis** is the counterpart discipline: detecting the *presence* of hidden data within a carrier file.
 
 **Techniques:**
+
 - Statistical analysis of pixel value distributions (LSB manipulation often creates detectable statistical anomalies).
 - Comparing file size/characteristics against what's typical/expected for that file type.
 - Signature-based detection for known steganography tool artifacts.
@@ -41,11 +42,13 @@ An 8-bit pixel color value like `10010110` can have its least significant bit ch
 ## 6. Real-World and Malicious Use Cases
 
 **Legitimate uses:**
+
 - Digital watermarking — embedding ownership/copyright information in media, resistant to casual removal.
 - Covert communication in oppressive regimes where encrypted traffic alone draws suspicion.
 - Fingerprinting distributed content to trace leaks.
 
 **Malicious uses:**
+
 - **Malware C2 (Command & Control)** — malware hiding configuration data or commands inside seemingly benign images downloaded from legitimate-looking sites, evading network content inspection that only flags obviously suspicious traffic.
 - **Data exfiltration** — insiders or attackers hiding stolen data inside outbound image/document uploads to evade DLP (Data Loss Prevention) tools that scan for plaintext sensitive data patterns.
 - **CTF (Capture The Flag) challenges** — steganography is a extremely common category in cybersecurity competitions, using tools to hide flags inside provided files.

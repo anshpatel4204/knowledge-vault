@@ -34,6 +34,7 @@ ip neigh show
 An **unsolicited** ARP announcement a device sends without being asked — typically broadcasting its own IP-to-MAC mapping.
 
 **Legitimate uses:**
+
 - Announcing a new IP address when a device boots or changes its address, so other devices update their ARP caches proactively.
 - Detecting IP address conflicts (if another device replies claiming the same IP, a conflict exists).
 - Failover in High Availability (HA) setups — when a backup device takes over a virtual IP, it sends a gratuitous ARP so switches/routers immediately redirect traffic to its MAC address instead of the failed primary's.
@@ -55,6 +56,7 @@ IPv6 does **not** use ARP at all — it replaces this function with **NDP (Neigh
 ARP has **no built-in authentication** — any device on the local segment can claim to own any IP address, and other devices will simply believe the reply and update their cache. This is a fundamental design weakness exploited by:
 
 ### ARP Spoofing / ARP Poisoning
+
 An attacker sends forged ARP replies associating **their own MAC address** with another device's IP address (very often the **default gateway's IP**), causing victim devices to send their traffic to the attacker instead — enabling a **Man-in-the-Middle (MITM)** attack where the attacker can intercept, inspect, modify, or drop traffic before optionally forwarding it on.
 
 ```
@@ -63,6 +65,7 @@ Victim updates its ARP cache, now sends gateway-bound traffic to the attacker
 ```
 
 ### Consequences of ARP Spoofing
+
 - Traffic interception (credential sniffing, session hijacking).
 - Denial of Service (attacker simply drops intercepted traffic instead of forwarding it).
 - Enables further attacks like DNS spoofing or SSL stripping once traffic flows through the attacker.

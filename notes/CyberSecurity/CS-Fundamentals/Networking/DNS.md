@@ -83,6 +83,7 @@ DNS is a common attack vector because it's foundational, often unencrypted, and 
 | DNS Hijacking | Compromising registrar/DNS accounts to redirect a domain |
 
 **Mitigations:**
+
 - **DNSSEC** — cryptographically signs DNS records to prevent spoofing/tampering.
 - **DoH (DNS over HTTPS)** / **DoT (DNS over TLS)** — encrypts DNS queries in transit, preventing eavesdropping/manipulation.
 - Restricting open resolvers, rate limiting, monitoring for anomalous query patterns (tunneling detection).

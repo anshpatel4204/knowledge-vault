@@ -46,6 +46,7 @@ Note the **avalanche effect**: capitalizing one letter completely changes the ou
 ## 6. Use Cases
 
 ### Password Storage
+
 Passwords should **never** be stored in plaintext or with fast general-purpose hashes like plain SHA-256 (too easily brute-forced/rainbow-tabled at scale). Use **slow, purpose-built password hashing algorithms**:
 
 | Algorithm | Notes |
@@ -56,15 +57,19 @@ Passwords should **never** be stored in plaintext or with fast general-purpose h
 | PBKDF2 | Older, still acceptable, less resistant to GPU attacks than the above |
 
 ### File Integrity Verification
+
 Publishing a SHA-256 checksum alongside a downloadable file lets users verify it wasn't corrupted or tampered with in transit.
 
 ### Digital Signatures
+
 Instead of signing an entire large message (slow with asymmetric crypto), systems hash the message first and sign only the much smaller hash — see [[Digital_Signatures]].
 
 ### Blockchain
+
 Each block contains the hash of the previous block, creating a tamper-evident chain — altering any historical block changes its hash and breaks every subsequent link.
 
 ### Data Deduplication & Fingerprinting
+
 Identifying duplicate files/data quickly by comparing hashes instead of full contents.
 
 ## 7. Salting

@@ -71,6 +71,7 @@ Because MAC addresses are read from software (the OS reports what the NIC driver
 **Legitimate uses:** privacy (randomized MAC on Wi-Fi to avoid tracking), testing, virtualization (VMs get virtual/locally-administered MACs).
 
 **Malicious uses:**
+
 - Bypassing MAC-based access control (e.g., Wi-Fi MAC allow-lists).
 - Impersonating a trusted device.
 - Evading network-based device tracking/blocking.

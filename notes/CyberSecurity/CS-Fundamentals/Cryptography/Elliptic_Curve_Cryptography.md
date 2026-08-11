@@ -66,11 +66,13 @@ Elliptic-curve variants of digital signature algorithms (see [[Digital_Signature
 ## 9. Advantages and Disadvantages of ECC
 
 **Advantages:**
+
 - Much smaller keys/signatures for equivalent security → faster computation, less bandwidth, smaller certificates.
 - Well-suited for resource-constrained devices (mobile, IoT, smart cards).
 - Modern curves (Curve25519/Ed25519) offer strong resistance to common implementation pitfalls.
 
 **Disadvantages:**
+
 - More mathematically complex to implement correctly than RSA — subtle implementation bugs (invalid curve attacks, non-constant-time operations, weak randomness) have historically caused real vulnerabilities.
 - Slightly less universal legacy/hardware support than RSA, though this gap has closed significantly.
 - Like RSA, vulnerable to future quantum computers via Shor's Algorithm (see [[Post_Quantum_Cryptography]]).

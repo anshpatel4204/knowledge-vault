@@ -41,6 +41,7 @@
 **"What did you do?"** — Logging and tracking user activity for auditing, billing, forensics, and compliance.
 
 **Typically recorded:**
+
 - Login/logout timestamps
 - Commands executed / resources accessed
 - Data transferred
@@ -52,24 +53,28 @@
 ## 5. AAA Protocols
 
 ### RADIUS (Remote Authentication Dial-In User Service)
+
 - UDP-based (ports **1812** authentication/authorization, **1813** accounting; legacy 1645/1646).
 - Combines authentication and authorization into a single response.
 - Encrypts only the password in the packet, not the entire payload.
 - Widely used for network access — Wi-Fi (802.1X), VPN, ISP dial-up.
 
 ### TACACS+ (Terminal Access Controller Access-Control System Plus)
+
 - Cisco-developed, TCP-based (port **49**).
 - Encrypts the **entire packet body**, not just the password.
 - Separates authentication, authorization, and accounting into distinct processes — allows granular per-command authorization.
 - Commonly used for **device administration** (router/switch CLI access).
 
 ### Kerberos
+
 - Ticket-based authentication protocol (port **88**), developed at MIT.
 - Uses a trusted third party — the **Key Distribution Center (KDC)** — with two components: the **Authentication Server (AS)** and **Ticket Granting Server (TGS)**.
 - Issues time-limited tickets so passwords are never sent over the network after initial login.
 - Backbone of authentication in Microsoft Active Directory domains.
 
 ### LDAP (Lightweight Directory Access Protocol)
+
 - Port **389** (plaintext) / **636** (LDAPS, encrypted).
 - Not strictly an AAA protocol, but a directory service protocol often used to store identities that AAA systems authenticate against.
 

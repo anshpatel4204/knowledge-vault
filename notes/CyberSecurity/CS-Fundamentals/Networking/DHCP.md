@@ -69,6 +69,7 @@ If a client can't reach a DHCP server, Windows devices self-assign an address in
 | DHCP Spoofing | Attacker responds to DISCOVER broadcasts faster than the legitimate server, becoming a MITM |
 
 **Mitigations:**
+
 - **DHCP Snooping** (switch feature) — only trusts DHCP server responses on designated "trusted" ports, blocks rogue offers on "untrusted" ports.
 - Port security to limit MAC addresses per port (mitigates starvation).
 - Network monitoring for unexpected DHCP server traffic.

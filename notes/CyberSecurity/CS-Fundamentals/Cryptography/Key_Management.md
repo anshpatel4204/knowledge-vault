@@ -56,6 +56,7 @@ Dedicated physical devices designed to generate, store, and use cryptographic ke
 Periodically replacing keys **limits the blast radius** of an undetected compromise — an attacker with an old, rotated-out key gains nothing going forward. Rotation frequency depends on key sensitivity and regulatory requirements (e.g., PCI-DSS often mandates annual rotation for certain keys).
 
 **Challenges with rotation:**
+
 - Data encrypted under an old key must either be re-encrypted under the new key or the old key must be retained (securely) to decrypt historical data.
 - Coordinating rotation across distributed systems without downtime requires careful **key versioning**.
 

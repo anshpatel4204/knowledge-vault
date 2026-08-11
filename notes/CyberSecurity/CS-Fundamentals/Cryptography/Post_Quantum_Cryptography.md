@@ -7,7 +7,9 @@
 Classical computers solve problems like integer factorization (RSA) and discrete logarithms (DH, ECC) using algorithms whose runtime grows so fast with key size that sufficiently large keys are practically unbreakable. Quantum computers, however, can run fundamentally different algorithms that solve these *specific* problems exponentially faster.
 
 ### Shor's Algorithm
+
 A quantum algorithm that can efficiently factor large integers and solve discrete logarithm problems — directly breaking:
+
 - **RSA** (relies on factoring)
 - **Diffie-Hellman / DSA** (relies on discrete logarithms)
 - **ECC / ECDH / ECDSA** (relies on the elliptic curve discrete logarithm problem)
@@ -15,6 +17,7 @@ A quantum algorithm that can efficiently factor large integers and solve discret
 A sufficiently large, fault-tolerant quantum computer running Shor's Algorithm would render all of these **completely broken**, not just weakened.
 
 ### Grover's Algorithm
+
 A quantum algorithm that provides a quadratic speedup for **brute-force search** problems — relevant to symmetric cryptography and hashing, but far less catastrophic:
 
 | Algorithm Type | Classical Security | Quantum Security (via Grover's) |

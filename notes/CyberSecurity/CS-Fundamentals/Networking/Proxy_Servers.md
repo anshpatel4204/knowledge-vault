@@ -11,6 +11,7 @@ Client → Forward Proxy → Internet/Destination Server
 ```
 
 **Use cases:**
+
 - **Content filtering** — organizations block access to certain websites/categories.
 - **Anonymity/Privacy** — hides the client's real IP from the destination.
 - **Caching** — stores frequently requested content locally to reduce bandwidth and improve speed.
@@ -26,6 +27,7 @@ Client → Internet → Reverse Proxy → Backend Server(s)
 ```
 
 **Use cases:**
+
 - **Load balancing** — distributing requests across multiple backend servers.
 - **SSL/TLS termination** — handling encryption/decryption centrally so backend servers don't each need to manage certificates (see [[TLS_SSL]] in the Cryptography folder).
 - **Caching** — serving cached static content without hitting the backend.

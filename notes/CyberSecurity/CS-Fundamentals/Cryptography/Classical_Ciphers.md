@@ -7,6 +7,7 @@
 Replace each symbol in the plaintext with another symbol, according to a fixed system.
 
 ### Caesar Cipher
+
 Shifts each letter by a fixed number of positions in the alphabet.
 
 ```
@@ -18,9 +19,11 @@ Ciphertext: KHOOR
 Only **25 possible keys** (shifts) for the English alphabet — trivially broken by brute force or frequency analysis.
 
 ### Monoalphabetic Substitution Cipher
+
 Each letter maps to a unique different letter via a fixed substitution alphabet (not just a shift). Keyspace is `26!` (~4×10^26), sounds strong, but is **completely broken by frequency analysis** — since letter frequencies in natural language (E, T, A being most common in English) leak through the substitution unchanged.
 
 ### Vigenère Cipher
+
 A **polyalphabetic** substitution cipher using a repeating keyword — each letter's shift amount depends on the corresponding letter of the key.
 
 ```
@@ -32,6 +35,7 @@ Ciphertext: LXFOPVEFRNHR
 Historically called *"le chiffre indéchiffrable"* (the indecipherable cipher) — resisted cryptanalysis for centuries until **Kasiski's examination** (finding repeated ciphertext sequences to deduce key length) and later **frequency analysis per key position** broke it in the 19th century.
 
 ### ROT13
+
 A special case of the Caesar cipher with a fixed shift of 13 — self-inverse (applying it twice returns the original text). Used historically for obscuring spoilers/answers online, not for any real security purpose.
 
 ## 3. Transposition Ciphers
@@ -39,6 +43,7 @@ A special case of the Caesar cipher with a fixed shift of 13 — self-inverse (a
 Rearrange the **order** of characters without changing the characters themselves.
 
 ### Rail Fence Cipher
+
 Writes the message in a zigzag pattern across a set number of "rails," then reads off row by row.
 
 ```
@@ -52,6 +57,7 @@ Ciphertext: WECRLTEERDSOEEFEAOCAIVDEN
 ```
 
 ### Columnar Transposition
+
 Writes the plaintext into a grid (rows) under a keyword, then reads the columns out in an order determined by alphabetizing the keyword's letters.
 
 ## 4. Other Notable Classical Ciphers
@@ -74,6 +80,7 @@ Ciphertext = Plaintext XOR Key   (Key is truly random, same length as plaintext,
 **Claude Shannon mathematically proved the OTP provides perfect secrecy** — given the ciphertext alone, every possible plaintext of that length is equally likely, so no amount of computing power can break it.
 
 **Why it's not used practically:**
+
 - The key must be **truly random** (not pseudorandom) and **as long as the message itself**.
 - The key must be **shared securely in advance** and **never reused** — reusing an OTP key even once completely breaks its security (this is exactly what happened in the real-world VENONA project, where Soviet cipher clerks reused one-time pad material, allowing US/UK cryptanalysts to partially break supposedly unbreakable Soviet communications).
 - Securely distributing a key as long as the message defeats much of the practical purpose of encryption in the first place.

@@ -44,12 +44,15 @@
 | WPA3 | AES-GCMP, SAE (replaces PSK handshake) | Current standard — resistant to offline dictionary attacks that plagued WPA2 |
 
 ### WEP's Fatal Flaw
+
 Used a small, static 24-bit **IV (Initialization Vector)** with RC4, meaning IVs repeated frequently in busy networks — allowing statistical attacks (see [[Cryptographic_Attacks]] in the Cryptography folder) to recover the key from captured traffic within minutes using widely available tools.
 
 ### WPA2's Weakness — KRACK
+
 The **Key Reinstallation Attack (KRACK, 2017)** exploited a flaw in WPA2's 4-way handshake, allowing an attacker to force nonce reuse and decrypt traffic — patched via software/firmware updates rather than requiring a new protocol.
 
 ### WPA3 Improvements
+
 - **SAE (Simultaneous Authentication of Equals)** replaces WPA2's PSK 4-way handshake, providing resistance to offline dictionary/brute-force attacks even against weak passphrases (an attacker can't just capture a handshake and crack it offline as easily as with WPA2).
 - **Forward secrecy** — compromising the passphrase doesn't expose previously captured traffic.
 - **192-bit security mode** for enterprise/government use cases.

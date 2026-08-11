@@ -12,6 +12,7 @@ A **network topology** describes the physical or logical arrangement of devices 
 ## 3. Common Topologies
 
 ### Bus Topology
+
 All devices connect to a single shared central cable (the "bus").
 
 - **Pros:** cheap, simple, minimal cabling.
@@ -19,6 +20,7 @@ All devices connect to a single shared central cable (the "bus").
 - **Status:** obsolete for modern networks (legacy coax Ethernet, 10BASE2/5).
 
 ### Star Topology
+
 All devices connect individually to a central device (hub or switch).
 
 - **Pros:** a single cable failure only affects one device; easy to add/remove devices; centralized management/troubleshooting.
@@ -26,6 +28,7 @@ All devices connect individually to a central device (hub or switch).
 - **Status:** the dominant topology in modern networks (every device connects to a switch).
 
 ### Ring Topology
+
 Each device connects to exactly two others, forming a closed loop; data travels around the ring (often in one direction).
 
 - **Pros:** predictable performance, no collisions in token-based implementations (e.g., Token Ring, FDDI).
@@ -33,6 +36,7 @@ Each device connects to exactly two others, forming a closed loop; data travels 
 - **Status:** largely legacy (Token Ring, FDDI), though the conceptual pattern persists in some carrier/metro network designs.
 
 ### Mesh Topology
+
 Every device connects to every other device (**full mesh**), or to several others (**partial mesh**).
 
 - **Pros:** highly redundant and fault-tolerant — multiple paths exist between any two nodes.
@@ -40,9 +44,11 @@ Every device connects to every other device (**full mesh**), or to several other
 - **Status:** used at the WAN/core network level (e.g., ISP backbones, redundant routing between data centers) and in wireless mesh Wi-Fi systems for home coverage.
 
 ### Hybrid Topology
+
 A combination of two or more topologies — most real-world enterprise networks are hybrids (e.g., a star topology at the access layer, connected via a partial mesh at the core/distribution layer for redundancy).
 
 ### Point-to-Point
+
 The simplest topology — a direct link between exactly two devices (e.g., a WAN link between two office sites, or a direct crossover cable connection).
 
 ## 4. Topology Comparison Table
