@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/CyberSecurity/CS-Fundamentals/Linux/Cron_and_Task_Scheduling.md",
+                "file": "notes/CyberSecurity/CS-Fundamentals/Cryptography/00_Roadmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cron_and_Task_Scheduling"
+              "title": "00_Roadmap"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/CyberSecurity/CS-Fundamentals/Linux/Cron_and_Task_Scheduling.md",
+                "file": "notes/CyberSecurity/CS-Fundamentals/Cryptography/00_Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,6 +205,13 @@
   },
   "active": "644f109c2f94f318",
   "lastOpenFiles": [
+    "notes/CyberSecurity/CS-Fundamentals/Networking/00_Roadmap.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/00_Roadmap.md",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/00_Roadmap.md.tmp.23708.c92079c4a141",
+    "notes/CyberSecurity/CS-Fundamentals/Cryptography/00_Roadmap.md",
+    "notes/CyberSecurity/CS-Fundamentals/Cryptography/00_Roadmap.md.tmp.23708.04b7ab89c8c8",
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Cron_and_Task_Scheduling.md",
+    "notes/CyberSecurity/CS-Fundamentals/Networking/00_Roadmap.md.tmp.23708.11a41299bcd4",
     "notes/CyberSecurity/CS-Fundamentals/Linux/Linux_Privilege_Escalation.md",
     "notes/CyberSecurity/CS-Fundamentals/Linux/Linux_Privilege_Escalation.md.tmp.22976.9438a6277003",
     "notes/CyberSecurity/CS-Fundamentals/Linux/Linux_Security_Hardening.md",
@@ -221,12 +228,8 @@
     "notes/CyberSecurity/CS-Fundamentals/Linux/Log_Management.md",
     "notes/CyberSecurity/CS-Fundamentals/Linux/Log_Management.md.tmp.22976.8dc618d437cf",
     "notes/CyberSecurity/CS-Fundamentals/Linux/Linux_Basics.md",
-    "notes/CyberSecurity/CS-Fundamentals/Linux/Cron_and_Task_Scheduling.md",
-    "notes/CyberSecurity/CS-Fundamentals/Linux/Cron_and_Task_Scheduling.md.tmp.22976.f0e2f1e7225f",
     "notes/CyberSecurity/CS-Fundamentals/Linux/Systemd_and_Services.md",
-    "notes/CyberSecurity/CS-Fundamentals/Linux/Systemd_and_Services.md.tmp.22976.8b3a5d3ca5b6",
     "notes/CyberSecurity/CS-Fundamentals/Linux/Package_Management.md",
-    "notes/CyberSecurity/CS-Fundamentals/Linux/Package_Management.md.tmp.22976.beb51347c04f",
     "notes/CyberSecurity/CS-Fundamentals/Linux/Process_Lifecycle_and_IPC.md",
     "notes/CyberSecurity/CS-Fundamentals/Linux/Shell_Scripting.md",
     "notes/CyberSecurity/CS-Fundamentals/Linux/Text_Processing_Commands.md",
@@ -237,9 +240,6 @@
     "notes/CyberSecurity/CS-Fundamentals/Linux/Linux_Boot_Process.md",
     "notes/CyberSecurity/CS-Fundamentals/Linux/Piping_Redirection_and_Operators.md",
     "notes/CyberSecurity/CS-Fundamentals/Linux/File_Viewing_and_Editors.md",
-    "notes/CyberSecurity/CS-Fundamentals/Linux/Linux_Shell_Basics.md",
-    "notes/CyberSecurity/CS-Fundamentals/Linux/File_Permissions.md",
-    "notes/CyberSecurity/CS-Fundamentals/Linux/File_Types_and_Inodes.md",
-    "notes/CyberSecurity/CS-Fundamentals/Linux/Linux_Architecture.md"
+    "notes/CyberSecurity/CS-Fundamentals/Linux/Linux_Shell_Basics.md"
   ]
 }

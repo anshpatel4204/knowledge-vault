@@ -74,6 +74,7 @@ Beyond per-user crontabs, the system has its own scheduling locations:
 Cron jobs run in a **minimal environment**, without the interactive shell's full `PATH` or other environment variables set in `~/.bashrc` — a classic source of "works when I run it manually, but not in cron" bugs (see [[Environment_Variables_and_Shell_Config]]).
 
 **Best practices:**
+
 ```bash
 # Use absolute paths inside cron scripts
 0 2 * * * /usr/bin/python3 /home/ansh/scripts/backup.py
@@ -115,6 +116,7 @@ systemctl list-timers      # view all active systemd timers
 | `@reboot` for persistence | Ensures a payload survives and re-executes after a reboot |
 
 **Defensive/enumeration checks:**
+
 ```bash
 # Audit all cron locations for unexpected entries
 cat /etc/crontab

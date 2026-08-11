@@ -35,9 +35,9 @@ This separation is a fundamental **security boundary** — a compromised user-sp
 Since user-space applications can't directly touch hardware or kernel-managed resources, they request services from the kernel via **system calls** — a strictly defined interface (e.g., `open()`, `read()`, `write()`, `fork()`, `execve()`, `socket()`) that transitions execution from user mode into kernel mode to perform the privileged operation, then returns control back.
 
 ```
-Application calls read() 
-   → CPU switches to kernel mode (via a trap/interrupt) 
-   → Kernel performs the actual disk read 
+Application calls read()
+   → CPU switches to kernel mode (via a trap/interrupt)
+   → Kernel performs the actual disk read
    → Result returned, CPU switches back to user mode
 ```
 

@@ -7,6 +7,7 @@ This note goes one level deeper than [[Process_Management]] — into **how** pro
 Linux creates new processes through a two-step pattern almost universally used by shells and system tools:
 
 ### fork()
+
 Creates a near-identical **copy** of the calling process — the new process (**child**) gets its own PID but otherwise starts as a duplicate of the parent's memory, open files, and execution state at that exact point.
 
 ```
@@ -16,6 +17,7 @@ After fork():  2 processes (PID 100 = parent, PID 101 = child)
 ```
 
 ### exec() family
+
 Replaces the **current** process's memory image with a new program entirely — the PID stays the same, but the running code changes completely.
 
 **The classic combination:** a shell forks a child process, and that child immediately calls `exec()` to replace itself with the requested program (e.g., `ls`) — this is literally what happens every time you run a command.

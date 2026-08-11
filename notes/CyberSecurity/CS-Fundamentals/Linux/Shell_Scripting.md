@@ -88,6 +88,7 @@ if [[ "$name" == "admin" && -x "$0" ]]; then echo "Admin and executable"; fi
 ## 7. Loops
 
 ### for loop
+
 ```bash
 for i in 1 2 3 4 5; do
     echo "Number: $i"
@@ -101,6 +102,7 @@ for i in $(seq 1 10); do echo $i; done
 ```
 
 ### while loop
+
 ```bash
 count=1
 while [ $count -le 5 ]; do
@@ -115,6 +117,7 @@ done < input.txt
 ```
 
 ### until loop
+
 ```bash
 count=1
 until [ $count -gt 5 ]; do

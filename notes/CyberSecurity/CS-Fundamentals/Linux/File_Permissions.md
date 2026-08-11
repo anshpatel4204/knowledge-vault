@@ -95,6 +95,7 @@ Note files never get execute permission by default (even with umask 000) — exe
 Beyond the basic rwx triad, three special permission bits significantly affect behavior — and are a **major focus in privilege escalation** (see [[Linux_Privilege_Escalation]]).
 
 ### SUID (Set User ID) — `s` in the owner's execute position
+
 When set on an **executable**, the program runs with the **privileges of the file's owner**, not the user who launched it — regardless of who executes it.
 
 ```bash
@@ -110,6 +111,7 @@ find / -perm -4000 -type f 2>/dev/null    # find all SUID binaries
 ```
 
 ### SGID (Set Group ID) — `s` in the group's execute position
+
 On an **executable**, runs with the privileges of the file's **group**. On a **directory**, newly created files inside automatically inherit the **directory's group** (instead of the creating user's primary group) — useful for shared team directories.
 
 ```bash
@@ -118,6 +120,7 @@ find / -perm -2000 -type f 2>/dev/null    # find all SGID binaries
 ```
 
 ### Sticky Bit — `t` in the others' execute position
+
 On a **directory**, restricts file deletion so that only the file's **owner** (or root) can delete/rename it, even if others have write access to the directory. Classic example: `/tmp`, which is world-writable but uses the sticky bit to prevent users from deleting each other's files.
 
 ```bash

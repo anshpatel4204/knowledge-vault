@@ -86,6 +86,7 @@ sort file.txt | uniq -c | sort -rn          # classic "frequency count" combo
 ```
 
 **Common combo:** counting the most frequent IPs in a log file:
+
 ```bash
 awk '{print $1}' access.log | sort | uniq -c | sort -rn | head
 ```
