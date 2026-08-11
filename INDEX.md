@@ -7,6 +7,7 @@
 # 🔐 CyberSecurity
 
 ## Fundamentals
+
 - [ ] CIA Triad
 - [ ] AAA
 - [ ] OSI Model
@@ -18,6 +19,7 @@
 - [ ] DHCP
 
 ## Networking
+
 - [ ] Routing
 - [ ] Switching
 - [ ] VLAN
@@ -25,6 +27,7 @@
 - [ ] VPN
 
 ## Web Security
+
 - [ ] HTTP
 - [ ] HTTPS
 - [ ] Cookies
@@ -33,6 +36,7 @@
 - [ ] OAuth
 
 ## Cryptography
+
 - [ ] AES
 - [ ] RSA
 - [ ] ECC
@@ -40,6 +44,7 @@
 - [ ] Digital Signature
 
 ## VAPT
+
 - [ ] Recon
 - [ ] Scanning
 - [ ] Enumeration
@@ -51,16 +56,19 @@
 # 💻 Programming
 
 ## C
+
 - [ ] Variables
 - [ ] Pointers
 - [ ] Structures
 
 ## C++
+
 - [ ] OOP
 - [ ] STL
 - [ ] Templates
 
 ## Python
+
 - [ ] Basics
 - [ ] OOP
 - [ ] Networking
@@ -96,12 +104,15 @@
 # 🎓 MCA
 
 Semester 1
+
 - [ ]
 
 Semester 2
+
 - [ ]
 
 Semester 3
+
 - [ ]
 
 ---
