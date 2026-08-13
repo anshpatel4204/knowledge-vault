@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8acc3b04549b09dc",
+        "id": "6751c1cc2860e3d3",
         "type": "tabs",
         "children": [
           {
-            "id": "644f109c2f94f318",
+            "id": "c7cd87d1439fc9b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/CyberSecurity/CS-Fundamentals/Security Basics/Defense_in_Depth_and_Zero_Trust.md",
+                "file": "notes/CyberSecurity/CS-Fundamentals/Networking_Tools_and_Software.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Defense_in_Depth_and_Zero_Trust"
+              "title": "Networking_Tools_and_Software"
             }
           }
         ]
@@ -179,8 +179,19 @@
               "icon": "message-square",
               "title": "Copilot"
             }
+          },
+          {
+            "id": "94cece312d4ebfe7",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -203,43 +214,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5bede4c6c136b6df",
+  "active": "c7cd87d1439fc9b3",
   "lastOpenFiles": [
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/00_Roadmap.md",
+    "notes/CyberSecurity/CS-Fundamentals/00_Roadmap.md",
+    "notes/CyberSecurity/CS-Fundamentals/Networking_Tools_and_Software.md",
+    "notes/CyberSecurity/CS-Fundamentals/Windows/Windows_Basics.md",
+    "notes/CyberSecurity/CS-Fundamentals/Windows/00_Roadmap.md",
+    "CHANGELOG.md",
+    "notes/CyberSecurity/CS-Fundamentals/Windows/Windows_Persistence_and_Lateral_Movement.md",
+    "notes/CyberSecurity/CS-Fundamentals/Windows/Windows_Privilege_Escalation.md",
+    "notes/CyberSecurity/CS-Fundamentals/Windows/Windows_Security_Features.md",
+    "notes/CyberSecurity/CS-Fundamentals/Windows/Domain_vs_Workgroup.md",
+    "notes/CyberSecurity/CS-Fundamentals/Windows/Active_Directory_Basics.md",
+    "notes/CyberSecurity/CS-Fundamentals/Windows/SMB_and_Windows_Shares.md",
+    "notes/CyberSecurity/CS-Fundamentals/Windows/Windows_Networking_Commands.md",
+    "notes/CyberSecurity/CS-Fundamentals/Windows/Group_Policy.md",
+    "notes/CyberSecurity/CS-Fundamentals/Windows/Event_Log_Management.md",
+    "notes/CyberSecurity/CS-Fundamentals/Windows/Task_Scheduler.md",
+    "notes/CyberSecurity/CS-Fundamentals/Windows/Windows_Update_and_Patch_Management.md",
+    "notes/CyberSecurity/CS-Fundamentals/Windows/UAC_and_Privilege_Levels.md",
+    "notes/CyberSecurity/CS-Fundamentals/Windows/Windows_Authentication.md",
+    "notes/CyberSecurity/CS-Fundamentals/Windows/Users_Groups_and_SID.md",
+    "notes/CyberSecurity/CS-Fundamentals/Windows/Windows_Processes_and_Services.md",
+    "notes/CyberSecurity/CS-Fundamentals/Windows/WMI_and_CIM.md",
+    "notes/CyberSecurity/CS-Fundamentals/Windows/PowerShell_Scripting.md",
+    "notes/CyberSecurity/CS-Fundamentals/Windows/PowerShell_Basics.md",
+    "notes/CyberSecurity/CS-Fundamentals/Windows/Command_Prompt_Basics.md",
+    "notes/CyberSecurity/CS-Fundamentals/Windows/Windows_Registry.md",
+    "notes/CyberSecurity/CS-Fundamentals/Windows/File_and_Folder_Permissions.md",
+    "Untitled",
+    "Untitled.canvas",
     "notes/CyberSecurity/CS-Fundamentals/Security Basics/00_Roadmap.md.tmp.2800.94c1a9f72647",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Security_Testing_Types.md",
     "notes/CyberSecurity/CS-Fundamentals/Security Basics/Security_Testing_Types.md.tmp.2800.4181b769bf9d",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Cyber_Kill_Chain_and_MITRE_ATTACK.md",
     "notes/CyberSecurity/CS-Fundamentals/Security Basics/Cyber_Kill_Chain_and_MITRE_ATTACK.md.tmp.2800.6cc140c8055d",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Security_Awareness_and_Human_Factor.md",
     "notes/CyberSecurity/CS-Fundamentals/Security Basics/Security_Awareness_and_Human_Factor.md.tmp.2800.510c1b2d75a5",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Endpoint_Security.md",
     "notes/CyberSecurity/CS-Fundamentals/Security Basics/Endpoint_Security.md.tmp.2800.a8b2a3aae1e2",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Physical_Security.md",
     "notes/CyberSecurity/CS-Fundamentals/Security Basics/Physical_Security.md.tmp.2800.06d4c978e0cf",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Data_Security_and_Classification.md",
     "notes/CyberSecurity/CS-Fundamentals/Security Basics/Data_Security_and_Classification.md.tmp.2800.2e9f6b7b3028",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Business_Continuity_and_Disaster_Recovery.md",
     "notes/CyberSecurity/CS-Fundamentals/Security Basics/Business_Continuity_and_Disaster_Recovery.md.tmp.2800.00baf6385663",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Incident_Response.md",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Incident_Response.md.tmp.2800.1c766f5fc69c",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Compliance_and_Frameworks.md",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Compliance_and_Frameworks.md.tmp.2800.0b3ea62a83ba",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Security_Policies_and_Governance.md",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Identity_and_Access_Management.md",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Vulnerability_Management.md",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Common_Cyber_Attacks.md",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Web_Application_Attacks_OWASP_Top10.md",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Risk_Management.md",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Social_Engineering.md",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Threat_Actors_and_Hackers.md",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Defense_in_Depth_and_Zero_Trust.md",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Security_Controls.md",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Malware_Types.md",
-    "notes/CyberSecurity/CS-Fundamentals/Cryptography/00_Roadmap.md",
-    "notes/CyberSecurity/CS-Fundamentals/Networking/00_Roadmap.md",
-    "notes/CyberSecurity/CS-Fundamentals/Linux/00_Roadmap.md",
-    "notes/CyberSecurity/CS-Fundamentals/Linux/Cron_and_Task_Scheduling.md",
-    "notes/CyberSecurity/CS-Fundamentals/Linux/Linux_Privilege_Escalation.md"
+    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Incident_Response.md.tmp.2800.1c766f5fc69c"
   ]
 }
