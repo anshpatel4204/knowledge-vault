@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6751c1cc2860e3d3",
+        "id": "744703dac7b83083",
         "type": "tabs",
         "children": [
           {
-            "id": "c7cd87d1439fc9b3",
+            "id": "37aa597933d7b3b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/CyberSecurity/CS-Fundamentals/Networking_Tools_and_Software.md",
+                "file": "notes/CyberSecurity/VAPT/Methodology_and_Standards/VAPT_Engagement_Lifecycle.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Networking_Tools_and_Software"
+              "title": "VAPT_Engagement_Lifecycle"
             }
           }
         ]
@@ -214,44 +214,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c7cd87d1439fc9b3",
+  "active": "37aa597933d7b3b2",
   "lastOpenFiles": [
-    "notes/CyberSecurity/CS-Fundamentals/00_Roadmap.md",
+    "notes/CyberSecurity/VAPT/Methodology_and_Standards/MITRE_ATTACK_for_Pentesters.md",
+    "notes/CyberSecurity/VAPT/Reconnaissance_and_OSINT/Email_Harvesting.md",
+    "notes/CyberSecurity/VAPT/Reconnaissance_and_OSINT/00_Roadmap.md",
+    "notes/CyberSecurity/VAPT/00_Roadmap.md",
     "notes/CyberSecurity/CS-Fundamentals/Networking_Tools_and_Software.md",
-    "notes/CyberSecurity/CS-Fundamentals/Windows/Windows_Basics.md",
-    "notes/CyberSecurity/CS-Fundamentals/Windows/00_Roadmap.md",
-    "CHANGELOG.md",
-    "notes/CyberSecurity/CS-Fundamentals/Windows/Windows_Persistence_and_Lateral_Movement.md",
-    "notes/CyberSecurity/CS-Fundamentals/Windows/Windows_Privilege_Escalation.md",
-    "notes/CyberSecurity/CS-Fundamentals/Windows/Windows_Security_Features.md",
-    "notes/CyberSecurity/CS-Fundamentals/Windows/Domain_vs_Workgroup.md",
-    "notes/CyberSecurity/CS-Fundamentals/Windows/Active_Directory_Basics.md",
-    "notes/CyberSecurity/CS-Fundamentals/Windows/SMB_and_Windows_Shares.md",
-    "notes/CyberSecurity/CS-Fundamentals/Windows/Windows_Networking_Commands.md",
-    "notes/CyberSecurity/CS-Fundamentals/Windows/Group_Policy.md",
-    "notes/CyberSecurity/CS-Fundamentals/Windows/Event_Log_Management.md",
-    "notes/CyberSecurity/CS-Fundamentals/Windows/Task_Scheduler.md",
-    "notes/CyberSecurity/CS-Fundamentals/Windows/Windows_Update_and_Patch_Management.md",
-    "notes/CyberSecurity/CS-Fundamentals/Windows/UAC_and_Privilege_Levels.md",
-    "notes/CyberSecurity/CS-Fundamentals/Windows/Windows_Authentication.md",
-    "notes/CyberSecurity/CS-Fundamentals/Windows/Users_Groups_and_SID.md",
-    "notes/CyberSecurity/CS-Fundamentals/Windows/Windows_Processes_and_Services.md",
-    "notes/CyberSecurity/CS-Fundamentals/Windows/WMI_and_CIM.md",
-    "notes/CyberSecurity/CS-Fundamentals/Windows/PowerShell_Scripting.md",
-    "notes/CyberSecurity/CS-Fundamentals/Windows/PowerShell_Basics.md",
-    "notes/CyberSecurity/CS-Fundamentals/Windows/Command_Prompt_Basics.md",
-    "notes/CyberSecurity/CS-Fundamentals/Windows/Windows_Registry.md",
-    "notes/CyberSecurity/CS-Fundamentals/Windows/File_and_Folder_Permissions.md",
-    "Untitled",
-    "Untitled.canvas",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/00_Roadmap.md.tmp.2800.94c1a9f72647",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Security_Testing_Types.md.tmp.2800.4181b769bf9d",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Cyber_Kill_Chain_and_MITRE_ATTACK.md.tmp.2800.6cc140c8055d",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Security_Awareness_and_Human_Factor.md.tmp.2800.510c1b2d75a5",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Endpoint_Security.md.tmp.2800.a8b2a3aae1e2",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Physical_Security.md.tmp.2800.06d4c978e0cf",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Data_Security_and_Classification.md.tmp.2800.2e9f6b7b3028",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Business_Continuity_and_Disaster_Recovery.md.tmp.2800.00baf6385663",
-    "notes/CyberSecurity/CS-Fundamentals/Security Basics/Incident_Response.md.tmp.2800.1c766f5fc69c"
+    "notes/CyberSecurity/_to_delete/vapt_content/VAPT/Reconnaissance_and_OSINT/Network_Footprinting.md",
+    "notes/CyberSecurity/_to_delete/vapt_content/VAPT/Reconnaissance_and_OSINT/Passive_vs_Active_Recon.md",
+    "notes/CyberSecurity/_to_delete/vapt_content/VAPT/Reconnaissance_and_OSINT/Social_Media_OSINT.md",
+    "notes/CyberSecurity/_to_delete/vapt_content/VAPT/Reconnaissance_and_OSINT/Metadata_Extraction.md",
+    "notes/CyberSecurity/_to_delete/vapt_content/VAPT/Reconnaissance_and_OSINT/Email_Harvesting.md",
+    "notes/CyberSecurity/_to_delete/vapt_content/VAPT/Reconnaissance_and_OSINT/Subdomain_Enumeration.md",
+    "notes/CyberSecurity/_to_delete/vapt_content/VAPT/Reconnaissance_and_OSINT/OSINT_Framework_and_Tools.md",
+    "notes/CyberSecurity/_to_delete/vapt_content/VAPT/Reconnaissance_and_OSINT/00_Roadmap.md",
+    "notes/CyberSecurity/_to_delete/vapt_content/VAPT/Reconnaissance_and_OSINT/Shodan_and_Censys.md",
+    "notes/CyberSecurity/_to_delete/vapt_content/VAPT/Reconnaissance_and_OSINT/WHOIS_and_DNS_Recon.md",
+    "notes/CyberSecurity/_to_delete/vapt_content/VAPT/Reconnaissance_and_OSINT/Google_Dorking.md",
+    "notes/CyberSecurity/_to_delete/vapt_content/VAPT/Reconnaissance_and_OSINT",
+    "notes/CyberSecurity/_to_delete/vapt_content/VAPT/Methodology_and_Standards/OWASP_Testing_Guide.md",
+    "notes/CyberSecurity/_to_delete/vapt_content/VAPT/Methodology_and_Standards/Scoping_and_Rules_of_Engagement.md",
+    "notes/CyberSecurity/_to_delete/vapt_content/VAPT/Methodology_and_Standards/Legal_and_Ethical_Considerations.md",
+    "notes/CyberSecurity/_to_delete/vapt_content/VAPT/Methodology_and_Standards/PTES_Overview.md",
+    "notes/CyberSecurity/_to_delete/vapt_content/VAPT/Methodology_and_Standards/MITRE_ATTACK_for_Pentesters.md",
+    "notes/CyberSecurity/_to_delete/vapt_content/VAPT/Methodology_and_Standards/VAPT_Engagement_Lifecycle.md",
+    "notes/CyberSecurity/_to_delete/vapt_content/VAPT/Methodology_and_Standards/Types_of_Pentest_Black_Grey_White_Box.md",
+    "notes/CyberSecurity/_to_delete/vapt_content/VAPT/Methodology_and_Standards/OSSTMM_Overview.md",
+    "notes/CyberSecurity/_to_delete/vapt_content/VAPT/Methodology_and_Standards/00_Roadmap.md",
+    "notes/CyberSecurity/_to_delete/vapt_content/VAPT/Methodology_and_Standards/NIST_SP_800-115.md",
+    "notes/CyberSecurity/_to_delete/vapt_content/VAPT/Methodology_and_Standards",
+    "notes/CyberSecurity/_to_delete/vapt_content/VAPT",
+    "notes/CyberSecurity/_to_delete/vapt_content",
+    "notes/CyberSecurity/_to_delete/vapt_content.zip",
+    "notes/CyberSecurity/_to_delete",
+    "notes/CyberSecurity/VAPT/Reconnaissance_and_OSINT",
+    "notes/CyberSecurity/VAPT/Methodology_and_Standards",
+    "notes/CyberSecurity/_incoming_vapt_content.zip",
+    "notes/CyberSecurity/VAPT/Reporting_and_Risk_Scoring",
+    "Untitled.canvas"
   ]
 }
